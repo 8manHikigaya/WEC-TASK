@@ -10,14 +10,14 @@ token = "MTE2NjI5MjkzMjM3OTI3OTQxMA.GF4lvW.Fjnmn4-e-n5-W0WUiA6JvMMMiMzZS384BYHIw
 @bot.event
 async def on_ready():
     print("Online")
-
+user_id ="512593710631092224"
 @bot.event
 async def on_message(message):
     if message.author == bot.user:
         return
 
     
-    if message.guild and message.guild.id == 850020691775979610:  
+    if  message.guild.id == 850020691775979610 and message.author.id==user_id:  
        
         if message.channel.name == '1':
            
