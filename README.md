@@ -25,6 +25,14 @@ and just made this in the last remaining 30 mins..
 
 ![image](https://github.com/8manHikigaya/WEC-TASK/assets/70861383/55f31bd9-244f-4ff5-966f-38f116d86ee5)
 
+      WEC MEMBERS TABLE
+![image](https://github.com/8manHikigaya/WEC-TASK/assets/70861383/c973d104-e670-4d07-8693-4f2fccf38553)
+
+      WEC SIGS TABLE
+
+![image](https://github.com/8manHikigaya/WEC-TASK/assets/70861383/3d5c0ba5-6910-4e0e-af92-491c66522d86)
+
+
 
 
 
