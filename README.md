@@ -20,7 +20,8 @@ and just made this in the last remaining 30 mins..
 
 # Screenshot
 
-![image](https://github.com/8manHikigaya/WEC-TASK/assets/70861383/e85b7b26-5829-42df-947d-426113bd6ac9)
+![image](https://github.com/8manHikigaya/WEC-TASK/assets/70861383/24f36e4f-c10b-45ec-a9a4-dd85a01860f7)
+
 
 
 
