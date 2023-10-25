@@ -1,5 +1,10 @@
 import discord
 import responses
+import supabase
+
+url = "https://mwhijshweapgwqbdaxtv.supabase.co"
+key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im13aGlqc2h3ZWFwZ3dxYmRheHR2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTgyNzQwNjYsImV4cCI6MjAxMzg1MDA2Nn0.I9gDZrtW2CAJq_IaeQ49dXv_jKZOFGSoR46wPl59mhg"
+supabase_client = supabase.create_client(url,key)
 
 async def send_message(message, user_message, is_private):
     try: 
@@ -9,7 +14,7 @@ async def send_message(message, user_message, is_private):
         print(e)
 
 def run_discord_bot():
-    TOKEN ='MTE2NjI5MjkzMjM3OTI3OTQxMA.Gmblmg.lZghuqvt1bZnb3JNCYqCvYnZZ1CAjNtDPlzDv4'
+    TOKEN ='MTE2NjI5MjkzMjM3OTI3OTQxMA.GRLkVV.u5yuEXpGPqUXBFBPv_zYwA0xzcEIdbdycM4Vwk'
     intents =discord.Intents.default()
     intents.message_content = True
     client = discord.Client(intents =intents)
