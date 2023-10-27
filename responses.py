@@ -1,3 +1,10 @@
+import supabase
+
+url = "SUPABASE URL"
+key = "API KEY"
+supabase_client = supabase.create_client(url,key)
+
+
 def handle_response(message: str) -> str:
     p_message = message.lower()
 
@@ -23,7 +30,7 @@ def handle_response(message: str) -> str:
     return 'I do not understand your request.'
 
 def get_distinct_roles():
-    response = supabase_client.sql("SELECT DISTINCT Role FROM 'Wec members'")
+    response = supabase_client.query("SELECT DISTINCT Role FROM 'Wec members'")
     roles = [entry['Role'] for entry in response['data']]
     return roles
 
